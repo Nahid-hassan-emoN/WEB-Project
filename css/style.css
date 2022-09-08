@@ -169,7 +169,7 @@
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
-    url(../img/bg-hero.jpg);
+    url(../img/bg-hero.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,6 +291,8 @@
   background: var(--primary);
   color: #ffffff;
 }
+
+
 
 /*** Testimonial ***/
 .testimonial-carousel::before {
