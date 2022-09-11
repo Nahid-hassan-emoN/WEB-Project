@@ -134,11 +134,13 @@
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link">About</a>
             <a href="service.html" class="nav-item nav-link">Services</a>
-            <a href="package.html" class="nav-item nav-link">Packages</a>
+            <!-- <a href="package.html" class="nav-item nav-link">Packages</a> -->
+            <a href="maps.html" class="nav-item nav-link active">Maps</a>
+
             <div class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle active"
+                class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 >Pages</a
               >
@@ -147,12 +149,15 @@
                 <a href="booking.html" class="dropdown-item">Booking</a>
                 <a href="team.html" class="dropdown-item">Travel Guides</a>
                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                <a href="maps.html" class="dropdown-item active">Maps</a>
+                <!-- <a href="maps.html" class="dropdown-item active">Maps</a> -->
+                <a href="package.html" class="dropdown-item">Packages</a>
               </div>
             </div>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
-          <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
+          <a href="register.html" class="btn btn-primary rounded-pill py-2 px-4"
+            >Register</a
+          >
         </div>
       </nav>
 
@@ -206,6 +211,10 @@
       <div class="container-fluid">
         <!-- <h1>Find The Distance Between Two Places.</h1> -->
         <!-- <p>This App Will Help You Calculate Your Travelling Distances.</p> -->
+        <div class="container-fluid">
+          <div id="googleMap"></div>
+          <div id="output"></div>
+        </div>
         <form class="form-horizontal">
           <div class="form-group">
             <label for="from" class="col-xs-2 control-label"
@@ -235,15 +244,11 @@
           </div>
         </form>
 
-        <div class="col-xs-offset-2 col-xs-10">
-          <button class="btn btn-info btn-lg" onclick="calcRoute();">
+        <div class="col-xs-offset-4 col-lg-10">
+          <button class="btn btn-primary btn-lg" onclick="calcRoute();">
             <i class="fas fa-map-signs"></i>
           </button>
         </div>
-      </div>
-      <div class="container-fluid">
-        <div id="googleMap"></div>
-        <div id="output"></div>
       </div>
     </div>
 
