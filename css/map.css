@@ -1,16 +1,6 @@
 ﻿/*styling.css*/
 /*add font family, background image*/
 
-body {
-  color: #5bc0de;
-  font-family: "Poppins", sans-serif;
-}
-
-.fa-map-marker-alt,
-.fa-dot-circle {
-  color: #5bc0de;
-}
-
 /*Jumbotron*/
 .jumbotron {
   background-color: transparent;
@@ -30,7 +20,6 @@ body {
 
 /*map*/
 #googleMap {
-  width: 70%;
   height: 600px;
   margin: 10px auto;
 }
@@ -44,4 +33,10 @@ body {
 
 #mode {
   color: black;
+}
+
+@media (max-width: 480px) {
+  #googleMap {
+    height: 400px;
+  }
 }
