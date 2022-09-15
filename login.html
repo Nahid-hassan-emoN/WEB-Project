@@ -158,39 +158,31 @@
     <!-- Navbar & Hero End -->
 
     <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-xxl wow fadeInUp" data-wow-delay="0.1s">
       <div class="container" style="max-width: 600px">
         <div class="row justify-content-center">
           <!-- login form start -->
           <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
+            <div class="form-floating mb-5">
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                id="floatingInput"
+                placeholder="name@example.com"
               />
-              <!-- <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div> -->
+              <label for="floatingInput">Email address</label>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
+            <div class="form-floating mb-5">
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="floatingPassword"
+                placeholder="Password"
               />
+              <label for="floatingPassword">Password</label>
             </div>
             <button type="submit" class="btn btn-primary btn-lg">Log In</button>
-            <a style="margin-left: 10px" href="register.html"
-              >Don't have an account?</a
-            >
+            <a class="ms-1" href="register.html">Don't have an account?</a>
           </form>
           <!-- login form end -->
         </div>
