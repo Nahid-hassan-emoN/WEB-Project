@@ -159,53 +159,56 @@
 
     <!-- 404 Start -->
     <div class="container-xxl wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container" style="max-width: 600px">
-        <div class="row justify-content-center">
+      <div class="container p-md-5" style="max-width: 600px">
+        <div class="text-center">
           <!-- login form start -->
           <form>
-            <div class="form-floating mb-5">
+            <div class="form-floating mb-5 shadow-sm">
               <input
                 type="text"
                 class="form-control"
                 id="floatingInput"
                 placeholder="Your Name"
+                required
               />
               <label for="floatingInput">Full Name</label>
             </div>
-            <div class="form-floating mb-4">
+            <div class="form-floating mb-5 shadow-sm">
               <input
                 type="email"
                 class="form-control"
                 id="floatingInput"
                 placeholder="name@example.com"
+                required
               />
               <label for="floatingInput">Email address</label>
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
             </div>
-            <div class="form-floating mb-5">
+            <div class="form-floating mb-5 shadow-sm">
               <input
                 type="password"
                 class="form-control"
                 id="floatingPassword"
                 placeholder="Password"
+                required
               />
               <label for="floatingPassword">Password</label>
             </div>
-            <div class="form-floating mb-5">
+            <div class="form-floating mb-5 shadow-sm">
               <input
                 type="password"
                 class="form-control"
                 id="floatingPassword"
                 placeholder="Password"
+                required
               />
               <label for="floatingPassword">Confirm Password</label>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg">
+            <button type="submit" class="btn btn-primary btn-lg w-100">
               Sign Up
             </button>
-            <a class="ms-1" href="login.html">Already have an account?</a>
+            <a class="d-block mt-3" href="login.html"
+              >Already have an account?</a
+            >
           </form>
 
           <!-- login form end -->
